@@ -16,8 +16,41 @@ body {
   background: white;
 }
 
-.main-nav a {
+.navbar {
   background: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #F36B28;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #bd470c;
+}
+
+#about {
+  background-color: white;
+  padding: 5em;
+
+}
+
+#services {
+  background-color: #18597D;
+  color: white;
+}
+
+#beforeafter {
+  background-color: #29949B;
+  color: white;
+}
+
+#testimonials {
+  background-color: white;
+
+}
+
+.jumbotron {
+  margin-bottom: 0;
 }
 
 /* Services Section Styles  */
