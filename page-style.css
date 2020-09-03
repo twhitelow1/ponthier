@@ -53,6 +53,11 @@ body {
   margin-bottom: 0;
 }
 
+#contact {
+  background-color: #18597D;
+  color: white;
+}
+
 /* Services Section Styles  */
 
 .services {
