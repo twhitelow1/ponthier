@@ -24,7 +24,7 @@
       <p><a class="text-white" href="#quote">Get A Free Quote Today!</a> | <a class="text-white" href="">Blog</a></p>
     </nav>
     <!--Start Main Nav-->
-    <nav class="navbar navbar-expand-lg navbar-light p-0">
+    <nav class="navbar navbar-expand-lg navbar-light p-0 sticky-top">
       <!--Start Nav Container-->
       <div class="container m-0 p-0">
         <!--Logo/Brand-->
@@ -54,12 +54,13 @@
     <div class="jumbotron jumbotron-fluid" style="background: #18597d url('img/woodwash-filtered.jpg') no-repeat
       center; background-size: cover;">
       <div class="container text-white">
-        <h1 class="display-4  text-center">Ocala's Top <br> Pressure Washing <br>Professionals</h1>
+        <h1 class="display-4  text-center" id="jumbotron-heading">Ocala's Top <br> Pressure Washing <br>Professionals
+        </h1>
       </div>
     </div>
     <!-- End Jumbotron-->
     <!-- Start About Section-->
-    <div class="container" id="about">
+    <div class="container py-3" id="about">
       <div class="row justify-content-center">
         <div class="col-sm">
           <h2 class="text-center py-4">Pressure Washing Services In Ocala, FL And Surrounding Areas</h2>
@@ -103,11 +104,11 @@
     </div>
     <!--End about section-->
     <!--Start Services Section-->
-    <div class="container py-5" id="services">
+    <div class="container py-3" id="services">
       <div class="row justify-content-center">
         <h2 class="text-center pt-4">Services</h2>
       </div>
-      <div class="row align-items-center justify-content-center">
+      <div class="row align-items-center justify-content-center pb-5">
         <!--Fence Washing-->
         <div class="col-sm">
           <div class="services-card">
@@ -172,11 +173,11 @@
     </div>
     <!--End Services Section-->
     <!--Start Before/After-->
-    <div class="container py-5" id="beforeafter">
+    <div class="container py-3" id="beforeafter">
       <div class="row justify-content-center">
-        <h2 class="text-center">Before / After</h2>
+        <h2 class="text-center py-4">Before / After</h2>
       </div>
-      <div class="row">
+      <div class="row pb-5">
         <div class="owl-carousel" id="before-after-slideshow">
           <div class="item"><img src="img/bfphotos/fencecleaning.JPG"></div>
           <div class="item"><img src="img/bfphotos/exteriordoor.JPG"></div>
@@ -186,7 +187,7 @@
     </div>
     <!--End Before/After-->
     <!-- Start Testimonials-->
-    <div class="container" id="testimonials">
+    <div class="container py-3" id="testimonials">
 
       <!-- TESTIMONIALS -->
       <div class="row justify-content-center">
@@ -263,58 +264,50 @@
           <h2 class="text-center py-4">Contact Us</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm">
-          <div class=".d-flex align-self-center">
-
-            <form>
-              <div class="form-group row">
-                <label class="col-4 col-form-label" for="name">Name</label>
-                <div class="col-8">
-                  <input id="name" name="name" placeholder="Full Name" type="text" class="form-control"
-                    required="required">
-                </div>
+      <div class="row justify-content-center">
+        <div class="form-container col-sm">
+          <form class="form-container">
+            <div class="form-group row">
+              <label class="col-form-label col-4" for="name">Name: </label>
+              <div class="col-8">
+                <input type="text" name="name" placeholder="Your Name" id="name" class="form-control" required>
               </div>
-              <div class="form-group row">
-                <label for="email" class="col-4 col-form-label">Email</label>
-                <div class="col-8">
-                  <input id="email" name="email" placeholder="your@email.com" type="text" class="form-control"
-                    required="required">
-                </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-form-label col-4" for="email">Email: </label>
+              <div class="col-8">
+                <input type="email" name="email" placeholder="example@email" id="email" class="form-control" required>
               </div>
-              <div class="form-group row">
-                <label for="phone" class="col-4 col-form-label">Phone Number</label>
-                <div class="col-8">
-                  <input id="phone" name="phone" placeholder="Phone Number" type="text" class="form-control">
-                </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-form-label col-4" for="phone">Phone: </label>
+              <div class="col-8">
+                <input type="text" name="phone" placeholder="555-555-5555" id="phone" class="form-control" required>
               </div>
-              <div class="form-group row">
-                <label for="message" class="col-4 col-form-label">Message</label>
-                <div class="col-8">
-                  <textarea id="message" name="message" cols="40" rows="5" class="form-control"
-                    required="required"></textarea>
-                </div>
+            </div>
+            <div class="form-group row">
+              <div class="offset-4 offset-lg-5">
+                <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+                <button name="clear" type="reset" class="btn btn-primary">Reset</button>
               </div>
-              <div class="form-group row">
-                <div class="offset-5 col-10">
-                  <button name="submit" type="submit" class="btn btn-primary">Submit</button>
-                  <button name="clear" type="reset" class="btn btn-primary">Reset</button>
-                </div>
-              </div>
-            </form>
-          </div>
+            </div>
+          </form>
         </div>
       </div>
-      <!--End Contact-->
-      <!--Start Contact-->
-      <!--End Contact-->
-      <!--Start Footer-->
-
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="owlcarousel/owl.carousel.min.js"></script>
-      <script src="script.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </div>
+    <!--End Contact-->
+    <!--Start Footer-->
+    <footer class="d-flex flex-column align-items-center p-2">
+      Copyright 2020 Ponthier & Son.
+      Website Developed by <a href="https://todd.whitelow.tech">Todd Whitelow Jr.</a>
+    </footer>
+    <!--End Footer-->
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
