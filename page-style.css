@@ -138,6 +138,12 @@
   margin: 0 auto 17px;
 }
 
+#before-after-slideshow img {
+  transform-style: preserve-3d;
+  max-width: 100%;
+  margin: 0 auto 17px;
+}
+
 #customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
 #customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
   background: #3190E7;
