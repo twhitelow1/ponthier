@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20200824T190000Z
+DTEND:20200824T194500Z
+DTSTAMP:20200821T112900Z
+ORGANIZER;CN=lindseyj@inmotionhosting.com:mailto:lindseyj@inmotionhosting.c
+ om
+UID:43omil0crnumhkmjf81ljglufo@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=lindseyj@inmotionhosting.com;X-NUM-GUESTS=0:mailto:lindseyj@inmotionhos
+ ting.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=todd@whitelow.tech;X-NUM-GUESTS=0:mailto:todd@whitelow.tech
+X-MICROSOFT-CDO-OWNERAPPTID:875076223
+CREATED:20200821T112859Z
+DESCRIPTION:Event Name: InMotion Hosting Phone Screen\n\nI will give you a 
+ call at the time of our scheduled Phone Screen. No video equipment needed.\
+ n\nPhone Number: 3526300439\n\nNeed to make changes to this event?\nCancel:
+  https://calendly.com/cancellations/GFQH6TPSJMJ4DDUA\nReschedule: https://c
+ alendly.com/reschedulings/GFQH6TPSJMJ4DDUA\n\nPowered by Calendly.com\n\n\n
+ -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~::~:~::-\nPlease do not edit this section of the description.\n\nThis e
+ vent has a video call.\nJoin: https://meet.google.com/mdn-qiwp-nnv\n(US) +1
+  347-966-7257 PIN: 939109326#\nView more phone numbers: https://tel.meet/md
+ n-qiwp-nnv?pin=3672877173758&hs=7\n\nView your event at https://www.google.
+ com/calendar/event?action=VIEW&eid=NDNvbWlsMGNybnVtaGttamY4MWxqZ2x1Zm8gdG9k
+ ZEB3aGl0ZWxvdy50ZWNo&tok=MjgjbGluZHNleWpAaW5tb3Rpb25ob3N0aW5nLmNvbWQ5MDFlZG
+ E4OTFjNmFkN2UxMWUxNThlN2UwNTVlMjZiMjFlMjdiZDI&ctz=America%2FNew_York&hl=en&
+ es=1.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20200821T112859Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Todd Whitelow and Lindsey Jonas
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
