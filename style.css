@@ -19,6 +19,7 @@ body {
   /* background-color: rgb(103, 163, 203); */
   background-color: whitesmoke;
 }
+
 main {
   margin-top: 5em;
 }
@@ -98,6 +99,7 @@ footer {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
 .inner-column {
   padding: 20px 40px;
   display: flex;
@@ -109,10 +111,12 @@ footer {
 .inner-column form {
   padding: 100px;
 }
+
 .inner-column label {
   margin: 5px auto;
   width: 70%;
 }
+
 .inner-column input {
   margin: 5px 20px;
   width: 70%;
@@ -223,8 +227,7 @@ footer {
 
 /** ID Selectors */
 #navbar-logo {
-  width: 90%;
-  margin: auto;
+  width: 30%;
 }
 
 #header-btn {
@@ -279,6 +282,7 @@ footer {
   .main-nav {
     top: 30px;
   }
+
   .action-bar {
     display: flex;
     justify-content: space-between;
@@ -336,6 +340,7 @@ footer {
     display: inline-flex;
     width: 50%;
   }
+
   .inner {
     padding: 2em 3em;
   }
@@ -345,6 +350,7 @@ footer {
   h1 {
     font-size: 2.5em;
   }
+
   .inner {
     padding: 2em 3em;
   }
@@ -359,17 +365,21 @@ footer {
   .container-custom {
     max-width: 1200px;
   }
+
   header {
     padding: 100px 100px;
   }
+
   .inner {
     padding: 2em 5em;
   }
 }
+
 @media (min-width: 1300px) {
   .inner {
     padding: 2em 17em;
   }
+
   header {
     padding: 5em 10em;
   }
