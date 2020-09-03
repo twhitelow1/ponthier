@@ -29,12 +29,12 @@ jQuery(document).ready(function ($) {
   $('#before-after-slideshow').owlCarousel({
     loop: true,
     center: true,
-    items: 3,
+    items: 10,
     margin: 0,
     autoplay: true,
     dots: true,
     autoplayTimeout: 8500,
-    smartSpeed: 450,
+    smartSpeed: 300,
     responsive: {
       0: {
         items: 1

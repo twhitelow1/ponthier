@@ -1,3 +1,25 @@
+/**
+* Colors
+* Darker Blue BgColor = #18597D
+* Orange Font & BgColor = #F36B28
+* Teal = #29949B
+* Teal = #29949B
+*/
+
+/** Import Fonts */
+
+body {
+  background: cornsilk;
+}
+
+.main-nav {
+  background: white;
+}
+
+.main-nav a {
+  background: white;
+}
+
 /* Services Section Styles  */
 
 .services {
@@ -170,3 +192,5 @@
   transition: all 250ms ease-out 0s;
   width: 20px;
 }
+
+#
