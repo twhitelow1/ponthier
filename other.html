@@ -26,27 +26,32 @@
     <!--Start Main Nav-->
     <nav class="navbar navbar-expand-lg navbar-light p-0 sticky-top">
       <!--Start Nav Container-->
-      <div class="container m-0 p-0">
+      <div class="container m-0 p-0 " id="nav-container">
         <!--Logo/Brand-->
-        <a class="navbar-brand mb-0 pl-0" href="#"><img width="190" height="70" class="img-fluid"
-            src="PSPW_Logo-01.png"></a>
+        <a class="navbar-brand mb-0 pl-0" href="#"><img class="img-fluid nav-logo" src="PSPW_Logo-01.png"></a>
         <!--End Brand-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
           aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <!--Start Boostrap Menu Links-->
-        <div class="collapse navbar-collapse ml-auto mt-2 mt-lg-0" id="mainNav">
-          <div class="navbar-nav offset-md-3 offset-xl-5">
-            <a class="nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="#about">ABOUT</a>
-            <a class="nav-link" href="#services">SERVICES</a>
-            <a class="nav-link" href="#beforeafter">PHOTOS</a>
-            <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
-            <a class="nav-link" href="#contact">CONTACT</a>
+        <div class="container">
+          <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
+            aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+          <!--Start Boostrap Menu Links-->
+          <div class="collapse navbar-collapse ml-auto mt-2 mt-lg-2 justify-content-end" id="mainNav">
+            <div class="navbar-nav offset-md-3 offset-md-0 offset-xl-1">
+              <a class="nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#about">ABOUT</a>
+              <a class="nav-link" href="#services">SERVICES</a>
+              <a class="nav-link" href="#beforeafter">PHOTOS</a>
+              <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </div>
           </div>
+          <!--End Bootstrap Menu Links-->
         </div>
-        <!--End Bootstrap Menu Links-->
       </div>
       <!--End Nav Container-->
     </nav>
@@ -62,11 +67,11 @@
     <!-- Start About Section-->
     <div class="container py-3" id="about">
       <div class="row justify-content-center">
-        <div class="col-sm">
-          <h2 class="text-center py-4">Pressure Washing Services In Ocala, FL And Surrounding Areas</h2>
+        <div class="col-sm-8">
+          <h2 class="text-center py-4">Pressure Washing Services In Ocala, FL & Surrounding Areas</h2>
         </div>
       </div>
-      <div class="row">
+      <div class="row" style="width:80%; margin:auto;">
         <div class="col-sm">
           <p>Vivamus vitae sapien at ex finibus imperdiet. Vestibulum vitae turpis
             tempus dui convallis aliquet vel vitae odio. Vestibulum hendrerit mi eget
@@ -83,8 +88,8 @@
       <div class="row justify-content-center">
         <h2 class="text-center py-4">Local Family Owned and Operated</h2>
       </div>
-      <div class="row align-items-center">
-        <div class="col-sm">
+      <div class="row align-items-center" style="width:80%; margin:auto;">
+        <div class="col-sm-7 p-15">
           <p>
             Vivamus vitae sapien at ex finibus imperdiet. Vestibulum vitae turpis
             tempus dui convallis aliquet vel vitae odio. Vestibulum hendrerit mi eget
@@ -97,7 +102,7 @@
             mus.
           </p>
         </div>
-        <div class="col-sm">
+        <div class="col-sm-5">
           <img id="family-photo" class="img-fluid rounded" src="img/pressurewashing.jpg">
         </div>
       </div>
@@ -179,9 +184,13 @@
       </div>
       <div class="row pb-5">
         <div class="owl-carousel" id="before-after-slideshow">
-          <div class="item"><img src="img/bfphotos/fencecleaning.JPG"></div>
-          <div class="item"><img src="img/bfphotos/exteriordoor.JPG"></div>
-          <div class="item"><img src="img/bfphotos/softwashhouse.JPG"></div>
+          <div class="item">
+            <div class="shadow-effect">
+              <img class="img-fluid" src="img/bfphotos/fencecleaning.JPG">
+            </div>
+          </div>
+          <div class="item"><img class="img-fluid" style="width:90%" src="img/bfphotos/exteriordoor.JPG"></div>
+          <div class="item"><img class="img-fluid" src="img/bfphotos/softwashhouse.JPG"></div>
         </div>
       </div>
     </div>
@@ -199,56 +208,66 @@
             <!--TESTIMONIAL 1 -->
             <div class="item">
               <div class="shadow-effect">
-                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
+                <img class="img-circle"
+                  src="https://scontent.fapa1-2.fna.fbcdn.net/v/t1.0-9/106363709_3014445821936550_6019009514857920039_n.jpg?_nc_cat=104&_nc_sid=09cbfe&_nc_ohc=CM6_S5w9wlMAX8tuuL4&_nc_ht=scontent.fapa1-2.fna&oh=43447c6bf23b2b9d560b8acdefec50a2&oe=5F77DD3D"
                   alt="">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely
-                  synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+                <p>Chris did a great job cleaning up around our gutters! Also our shed looks brand new! Very easy to
+                  work with and does and excellent job! He will be my pressure cleaner going forward!
+                </p>
               </div>
-              <div class="testimonial-name">EMILIANO AQUILANI</div>
+              <div class="testimonial-name">MIKE MATHENEY</div>
             </div>
             <!--END OF TESTIMONIAL 1 -->
             <!--TESTIMONIAL 2 -->
             <div class="item">
               <div class="shadow-effect">
-                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
-                  alt="">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely
-                  synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+                <img class="img-circle"
+                  src="https://scontent.fapa1-2.fna.fbcdn.net/v/t1.0-9/60004942_843512962673144_5886108041849339904_n.jpg?_nc_cat=102&_nc_sid=09cbfe&_nc_ohc=MR03XsQLosUAX-WNVpV&_nc_ht=scontent.fapa1-2.fna&oh=2d4f4a37c9633394b2271b33903d2917&oe=5F776D49"
+                  alt="Susie MAcQuarrie - FB Profile pic">
+                <p>Chris did a fabulous job pressure washing my house, pool
+                  deck, driveway, and sidewalk. His rates are
+                  reasonable and he showed up on time. He will be my go to guy from now on for any pressure washing
+                  needs I have in the future. With him doing the work, I will be doing this home maintenance more
+                  frequently. 😊</p>
               </div>
-              <div class="testimonial-name">ANNA ITURBE</div>
+              <div class="testimonial-name">SUSIE MACQUARRIE</div>
             </div>
             <!--END OF TESTIMONIAL 2 -->
             <!--TESTIMONIAL 3 -->
             <div class="item">
               <div class="shadow-effect">
-                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
+                <img class="img-circle"
+                  src="https://scontent.fapa1-2.fna.fbcdn.net/v/t1.0-9/118322209_355013095678648_9215090414889287718_n.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_ohc=liAytXjFQHsAX94fSVU&_nc_ht=scontent.fapa1-2.fna&oh=c4783fffd162bbffc104200bf9b3a03f&oe=5F758D1C"
                   alt="">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely
-                  synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+                <p>Best person to go through! Very professional and ALWAYS does an excellent job</p>
               </div>
-              <div class="testimonial-name">LARA ATKINSON</div>
+              <div class="testimonial-name">EMMA EGGLESTON</div>
             </div>
             <!--END OF TESTIMONIAL 3 -->
             <!--TESTIMONIAL 4 -->
             <div class="item">
               <div class="shadow-effect">
-                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
+                <img class="img-circle"
+                  src="https://scontent.fapa1-2.fna.fbcdn.net/v/t1.0-9/43400799_127048304927261_3164456823369498624_o.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_ohc=uFILIFgctNgAX-Y0gI7&_nc_ht=scontent.fapa1-2.fna&oh=136a88f10733d960bc042438a5505f93&oe=5F760D69"
                   alt="">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely
-                  synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+                <p>Chris was Very professional/ explained about environmental friendly product that he uses that wouldnt
+                  hurt my plants and fish pond. Also the low pressure spray that wouldn’t my hurt the paint & shingles
+                  on the roofs and wooden sheds. Everything is shiny & new again ready to paint. Highly recommend this
+                  company 👍</p>
               </div>
-              <div class="testimonial-name">IAN OWEN</div>
+              <div class="testimonial-name">LORI LITKE</div>
             </div>
             <!--END OF TESTIMONIAL 4 -->
             <!--TESTIMONIAL 5 -->
             <div class="item">
               <div class="shadow-effect">
-                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
-                  alt="">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely
-                  synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+                <img class="img-circle"
+                  src="https://scontent.fapa1-1.fna.fbcdn.net/v/t1.0-9/86321663_830709004020421_146973579005657088_n.jpg?_nc_cat=110&_nc_sid=09cbfe&_nc_ohc=PoKkCkiAo5cAX9QLEri&_nc_ht=scontent.fapa1-1.fna&oh=14bc8b011c068e162b21b57b4adb2284&oe=5F788CE1"
+                  alt="ANNA BARTHLE CAUTHEN - PROFILE PIC">
+                <p>Ponthier & Son did a great job on my home at a reasonable price. Fair price quotes and no hidden
+                  charges. The house looks great! Definitely recommend.</p>
               </div>
-              <div class="testimonial-name">MICHAEL TEDDY</div>
+              <div class="testimonial-name">ANNA BARTHLE CAUTHEN</div>
             </div>
             <!--END OF TESTIMONIAL 5 -->
           </div>
